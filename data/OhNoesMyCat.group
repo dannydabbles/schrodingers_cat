@@ -1,0 +1,9 @@
+CIwResGroup
+{
+	name "OhNoesMyCat"
+
+	"./sounds/OhNoesMyCat.wav"
+
+	
+	"./OhNoesMyCat.itx"
+}

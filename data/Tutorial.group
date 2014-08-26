@@ -1,0 +1,8 @@
+CIwResGroup
+{
+	name "Tutorial"
+
+	"./sounds/Tutorial.wav"
+
+	"./Tutorial.itx"
+}

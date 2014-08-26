@@ -1,0 +1,18 @@
+CIwSoundSpec
+{
+	name		"Tutorial"
+	data		"Tutorial"	
+	volMax		2.0
+	vol		2.0
+	loop		true		
+} 
+
+CIwSoundGroup
+{
+	name		"Tutorial"
+	maxPolyphony	2
+	killOldest	true
+	
+	addSpec		"Tutorial"
+	
+}

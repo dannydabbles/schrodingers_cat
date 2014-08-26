@@ -1,0 +1,17 @@
+CIwSoundSpec
+{
+	name		"Catzophrenia"
+	data		"Catzophrenia"	
+	vol		1.5
+	loop		true		
+}
+
+CIwSoundGroup
+{
+	name		"Catzophrenia"
+	maxPolyphony	2
+	killOldest	true
+	
+	addSpec		"Catzophrenia"
+	
+}

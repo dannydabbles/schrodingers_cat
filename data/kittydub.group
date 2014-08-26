@@ -1,0 +1,9 @@
+CIwResGroup
+{
+	name "kittydub"
+
+	"./sounds/kittydub.wav"
+
+	
+	"./kittydub.itx"
+}

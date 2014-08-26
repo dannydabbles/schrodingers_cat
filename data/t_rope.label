@@ -1,0 +1,14 @@
+k1_says_If you let your cat swipe at the laser/near the rope, he will cut it
+k2_usespng_itsacirclejim
+k2_moveto_R1
+R1_connectedto_r2
+r2_connectedto_w1
+R1_rises
+r2_falls
+R1_movesby_2
+r2_movesby_2
+w1_movesby_2
+platform_2
+background_rainbowb
+backgroundmusic_Tutorial
+death_0

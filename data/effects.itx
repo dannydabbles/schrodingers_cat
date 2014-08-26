@@ -1,0 +1,604 @@
+CIwSoundSpec
+{
+	name		"cat_die1"	#name of file
+	data		"cat_die1"	#name of file
+	vol 		7.0		#7.0 appears to be max
+	pitchMin	0.8
+	pitchMax	1.2
+}
+
+CIwSoundSpec
+{
+	name		"cat_die2"		
+	data		"cat_die2"		
+	vol 		7.0						
+	pitchMin	0.8
+	pitchMax	1.2
+}
+
+CIwSoundSpec
+{
+	name		"cat_die3"		
+	data		"cat_die3"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.0
+}
+
+CIwSoundSpec
+{
+	name		"cat_die4"		
+	data		"cat_die4"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.0
+}
+
+CIwSoundSpec
+{
+	name		"cat_die5"		
+	data		"cat_die5"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.0
+}
+
+
+
+CIwSoundSpec
+{
+	name		"cat_meow1"		
+	data		"cat_meow1"		
+	vol 		7.0			 
+	pitchMin	0.8
+	pitchMax	1.2
+}
+
+CIwSoundSpec
+{
+	name		"cat_meow2"		
+	data		"cat_meow2"		
+	vol 		7.0						
+	pitchMin	0.8
+	pitchMax	1.2
+}
+
+CIwSoundSpec
+{
+	name		"cat_meow3"		
+	data		"cat_meow3"		
+	vol 		7.0						
+	pitchMin	0.8
+	pitchMax	1.2
+}
+
+CIwSoundSpec
+{
+	name		"cat_meow4"		
+	data		"cat_meow4"		
+	vol 		7.0						
+	pitchMin	0.8
+	pitchMax	1.2
+}
+
+CIwSoundSpec
+{
+	name		"cat_meow5"		
+	data		"cat_meow5"		
+	vol 		7.0						
+	pitchMin	0.8
+	pitchMax	1.2
+}
+
+CIwSoundSpec
+{
+	name		"cat_meow_short1"		
+	data		"cat_meow_short1"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.0
+}
+
+CIwSoundSpec
+{
+	name		"cat_meow_short2"		
+	data		"cat_meow_short2"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.0
+}
+
+CIwSoundSpec
+{
+	name		"cat_purr"		
+	data		"cat_purr"		
+	vol 		7.0						
+	pitchMin	0.8
+	pitchMax	1.2
+}
+
+CIwSoundGroup
+{
+	name		"catsounds"
+	maxPolyphony 	1
+	killOldest	false
+	addSpec		"cat_die1"
+	addSpec		"cat_die2"	
+	addSpec		"cat_die3"	
+	addSpec		"cat_die4"
+	addSpec		"cat_die5"
+	addSpec		"cat_meow1"
+	addSpec		"cat_meow2"	
+	addSpec		"cat_meow3"	
+	addSpec		"cat_meow4"
+	addSpec		"cat_meow5"
+	addSpec		"cat_meow_short1"
+	addSpec		"cat_meow_short2"
+	addSpec		"cat_purr"
+}
+
+CIwSoundSpec
+{
+	name		"bloodydeath1"		
+	data		"bloodydeath1"		
+	vol 		5.0						
+	pitchMin	0.7
+	pitchMax	1.4
+}
+
+CIwSoundSpec
+{
+	name		"bloodydeath2"		
+	data		"bloodydeath2"		
+	vol 		5.0						
+	pitchMin	0.7
+	pitchMax	1.4
+}
+
+CIwSoundSpec
+{
+	name		"bloodydeath3"		
+	data		"bloodydeath3"		
+	vol 		5.0						
+	pitchMin	0.7
+	pitchMax	1.4
+}
+
+CIwSoundSpec
+{
+	name		"bloodydeath4"		
+	data		"bloodydeath4"		
+	vol 		5.0						
+	pitchMin	0.7
+	pitchMax	1.4
+}
+
+CIwSoundSpec
+{
+	name		"bloodydeath5"		
+	data		"bloodydeath5"		
+	vol 		5.0						
+	pitchMin	0.7
+	pitchMax	1.4
+}
+
+CIwSoundGroup
+{
+	name		"bloodsounds"
+	maxPolyphony 	32
+	killOldest	true
+
+	addSpec		"bloodydeath1"
+	addSpec		"bloodydeath2"
+	addSpec		"bloodydeath3"
+	addSpec		"bloodydeath4"
+	addSpec		"bloodydeath5"
+}
+
+
+CIwSoundSpec
+{
+	name		"foodmunch1"		
+	data		"foodmunch1"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"foodmunch2"		
+	data		"foodmunch2"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"foodmunch3"		
+	data		"foodmunch3"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"litterbox1"		
+	data		"litterbox1"		
+	vol 		3.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"litterbox2"		
+	data		"litterbox2"		
+	vol 		3.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"mouse1"		
+	data		"mouse1"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"mouse2"		
+	data		"mouse2"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"mouse3"		
+	data		"mouse3"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"mouse4"		
+	data		"mouse4"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"scratching1"		
+	data		"scratching1"		
+	vol 		1.9						
+	pitchMin	0.8
+	pitchMax	2.1
+}
+
+CIwSoundSpec
+{
+	name		"scratching2"		
+	data		"scratching2"		
+	vol 		1.9						
+	pitchMin	0.9
+	pitchMax	2.1
+}
+
+CIwSoundSpec
+{
+	name		"scratching3"		
+	data		"scratching3"		
+	vol 		1.9						
+	pitchMin	0.8
+	pitchMax	2.1
+}
+
+CIwSoundSpec
+{
+	name		"scratching4"		
+	data		"scratching4"		
+	vol 		1.9						
+	pitchMin	0.8
+	pitchMax	2.1
+}
+
+CIwSoundGroup
+{
+	name		"shinysounds"
+	maxPolyphony 	1
+	killOldest	false
+
+	addSpec		"foodmunch1"
+	addSpec		"foodmunch2"
+	addSpec		"foodmunch3"
+
+	addSpec		"litterbox1"
+	addSpec		"litterbox2"
+
+	addSpec		"mouse1"
+	addSpec		"mouse2"
+	addSpec		"mouse3"
+	addSpec		"mouse4"
+
+	addSpec		"scratching1"
+	addSpec		"scratching2"
+	addSpec		"scratching3"
+	addSpec		"scratching4"
+}
+
+CIwSoundSpec
+{
+	name		"block"		
+	data		"block"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"anvil"		
+	data		"anvil"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"boxingglove"		
+	data		"boxingglove"		
+	vol 		7.0						
+	pitchMin	1.1
+	pitchMax	1.0
+}
+
+
+CIwSoundSpec
+{
+	name		"beartrap"		
+	data		"beartrap"		
+	vol 		4.5						
+	pitchMin	0.9
+	pitchMax	1.0
+}
+
+CIwSoundSpec
+{
+	name		"buzzsaw1"		
+	data		"buzzsaw1"		
+	vol 		0.9						
+	pitchMin	0.9
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"buzzsaw_off"		
+	data		"buzzsaw_off"		
+	vol 		1.0						
+	pitchMin	0.9
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"buzzsaw_on"		
+	data		"buzzsaw_on"		
+	vol 		0.5						
+	pitchMin	0.9
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"scythe_kill"		
+	data		"scythe_kill"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"spike3"		
+	data		"spike3"		
+	vol 		7.0						
+	pitchMin	1.0
+	pitchMax	1.0
+}
+
+CIwSoundSpec
+{
+	name		"swoosh3"		
+	data		"swoosh3"		
+	vol 		7.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"lever"		
+	data		"lever"		
+	vol 		7.0						
+	pitchMin	0.9
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"mechanicalwall"		
+	data		"mechanicalwall"		
+	vol 		0.5						
+	pitchMin	0.5
+	pitchMax	1.0
+}
+
+CIwSoundSpec
+{
+	name		"pressureplate"		
+	data		"pressureplate"		
+	vol 		6.5						
+	pitchMin	0.8
+	pitchMax	1.0
+}
+
+CIwSoundSpec
+{
+	name		"ropecut"		
+	data		"ropecut"		
+	vol 		3.0						
+	pitchMin	0.7
+	pitchMax	1.3
+}
+
+CIwSoundSpec
+{
+	name		"ropeslide"		
+	data		"ropeslide"		
+	vol 		3.0						
+	pitchMin	1.0
+	pitchMax	1.3
+}
+
+CIwSoundGroup
+{
+	name		"worldsounds"
+	maxPolyphony 	4
+	killOldest	false
+	
+	addSpec		"anvil"
+	addSpec		"beartrap"
+	addSpec		"block"
+	addSpec		"buzzsaw1"
+	addSpec		"buzzsaw_off"
+	addSpec		"buzzsaw_on"
+
+	addSpec		"scythe_kill"
+	addSpec		"swoosh3"
+
+	addSpec		"spike3"
+	
+	addSpec		"lever"
+	addSpec		"pressureplate"
+	addSpec		"mechanicalwall"
+	addSpec		"ropecut"
+	addSpec		"ropeslide"
+}
+
+CIwSoundSpec
+{
+	name		"menu1"		
+	data		"menu1"		
+	vol 		7.0						
+}
+
+CIwSoundSpec
+{
+	name		"menu2"		
+	data		"menu2"		
+	vol 		7.0						
+}
+
+CIwSoundSpec
+{
+	name		"menu3"		
+	data		"menu3"		
+	vol 		1.0						
+}
+
+CIwSoundSpec
+{
+	name		"menu4"		
+	data		"menu4"		
+	vol 		7.0						
+}
+
+CIwSoundSpec
+{
+	name		"menu5"		
+	data		"menu5"		
+	vol 		5.0						
+}
+
+CIwSoundSpec
+{
+	name		"menu9"		
+	data		"menu9"		
+	vol 		5.0						
+}
+
+CIwSoundSpec
+{
+	name		"menu8"		
+	data		"menu8"		
+	vol 		7.0						
+}
+
+CIwSoundSpec
+{
+	name		"menu10"		
+	data		"menu10"		
+	vol 		7.0
+	pitch		1.2						
+}
+
+CIwSoundSpec
+{
+	name		"pause1"		
+	data		"pause1"		
+	vol 		1.5						
+}
+
+CIwSoundSpec
+{
+	name		"pause2"		
+	data		"pause2"		
+	vol 		1.5						
+}
+
+CIwSoundSpec
+{
+	name		"cheer"		
+	data		"cheer"		
+	vol 		3.0						
+}
+
+CIwSoundSpec
+{
+	name		"goodtime"		
+	data		"goodtime"		
+	vol 		3.0						
+}
+
+CIwSoundGroup
+{
+	name		"menusounds"
+	maxPolyphony 	2
+	killOldest	true
+
+	addSpec		"menu1"
+	addSpec		"menu2"
+	addSpec		"menu3"
+	addSpec		"menu4"
+	addSpec		"menu5"
+	addSpec		"menu8"
+	addSpec		"menu9"
+	addSpec		"menu10"
+	addSpec		"pause1"
+	addSpec		"pause2"
+	addSpec		"cheer"
+	addSpec		"goodtime"
+}

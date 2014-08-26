@@ -1,0 +1,10 @@
+CIwResGroup
+{
+	name "foresttheme"
+
+	"./sounds/foresttheme.wav"
+
+	
+	"./foresttheme.itx"
+	
+}

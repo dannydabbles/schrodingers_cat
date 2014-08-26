@@ -1,0 +1,66 @@
+CIwSoundSpec
+{
+	name		"Catzophrenia"
+	data		"Catzophrenia"	
+	vol		1.5
+	loop		true		
+}
+
+CIwSoundSpec
+{
+	name		"kittydub"
+	data		"kittydub"	
+	volMax		1.5
+	vol		1.5
+	loop		true		
+}
+
+CIwSoundSpec
+{
+	name		"kitty8bit"
+	data		"kitty8bit"	
+	volMax		1.5
+	vol		1.5
+	loop		true		
+}
+
+CIwSoundSpec
+{
+	name		"Tutorial"
+	data		"Tutorial"	
+	volMax		2.0
+	vol		2.0
+	loop		true		
+}
+
+CIwSoundSpec
+{
+	name		"foresttheme"
+	data		"foresttheme"	
+	volMax		3.0
+	vol		3.0
+	loop		true		
+}
+
+CIwSoundSpec
+{
+	name		"OhNoesMyCat"
+	data		"OhNoesMyCat"	
+	volMax		2.0
+	vol		2.0
+	loop		false
+}
+
+CIwSoundGroup
+{
+	name		"music"
+	maxPolyphony	2
+	killOldest	true
+	
+	addSpec		"Catzophrenia"
+	addSpec		"kittydub"
+	addSpec		"kitty8bit"
+	addSpec		"Tutorial"
+	addSpec		"foresttheme"
+	addSpec		"OhNoesMyCat"
+}

@@ -1,0 +1,19 @@
+
+CIwSoundSpec
+{
+	name		"kittydub"
+	data		"kittydub"	
+	volMax		1.5
+	vol		1.5
+	loop		true		
+}
+
+CIwSoundGroup
+{
+	name		"kittydub"
+	maxPolyphony	2
+	killOldest	true
+	
+	addSpec		"kittydub"
+	
+}

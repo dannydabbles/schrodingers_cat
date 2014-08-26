@@ -1,0 +1,16 @@
+[S3E]
+FixScreenOrientation = 2
+SplashscreenBkR = 255
+SplashscreenBkG = 255
+SplashscreenBkB = 255
+MemSize = 90886080
+MemSizeDebug = 90886080
+
+[GX]
+DataCacheSize = 10000000
+
+[Util] 
+MaxAllocationWarning = 0
+
+[Trace]
+MYAPP=0

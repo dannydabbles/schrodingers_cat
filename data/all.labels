@@ -1,0 +1,46 @@
+__ platform
+|| wall
+!! wall platform
+_| rightwall platform
+!| rightwall
+|! leftwall
+|_ leftwall platform
+!a bothwall
+_! bothwall platform
+SS startbox cat catevent platform
+FF endbox platform
+K# message platform
+k# message
+M# mouse platform
+H# mousehole platform
+T# scratchingpost platform
+t# scratchingpost
+CF food platform
+CN catnip platform
+LB litterbox platform
+S# buzzsaw platform
+s# buzzsaw
+W# mechwall platform
+w# mechwall
+Q# mechwallleft platform
+q# mechwallleft
+U# mechwallright platform
+u# mechwallright
+BT beartrap platform
+^^ spike platform
+Y# scythe platform
+y# scythe
+X# scytheleft platform
+x# scytheleft
+Z# sycthright platform
+z# scytheright
+R# rope platform
+r# rope
+f# block
+L# lever platform
+P# pressureplate platform
+i# trigger
+I# trigger platform
+B# bucket platform
+a# anvil
+a# anvil

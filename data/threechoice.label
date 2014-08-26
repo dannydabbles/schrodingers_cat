@@ -1,0 +1,15 @@
+M1_runsto_H1
+R1_connectedto_a1
+R1_connectedto_R2
+R2_connectedto_W1
+R1_rises
+R2_falls
+W1_movesby_1
+R1_movesby_1
+R2_movesby_1
+a1_movesby_5
+background_demoneyes
+backgroundmusic_kittydub
+platform_3
+death_expected_1
+death_1

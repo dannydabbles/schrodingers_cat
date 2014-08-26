@@ -1,0 +1,8 @@
+CIwResGroup
+{
+	name "Catzophrenia"
+
+	"./sounds/Catzophrenia.wav"
+
+	"./Catzophrenia.itx"
+}

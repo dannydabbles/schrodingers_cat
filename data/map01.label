@@ -1,0 +1,17 @@
+k1_usespng_catbucket
+r2_connectedto_w1
+R1_connectedto_r2
+R1_connectedto_B1
+w1_isdown
+w1_movesby_1
+R1_falls
+r2_rises
+R1_movesby_1
+r2_movesby_1
+S1_drainsto_B1
+S1_capis_1
+B1_movesby_1
+L1_powers_S1
+death_expected_1
+death_player_0
+time_best_0

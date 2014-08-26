@@ -1,0 +1,18 @@
+k1_says_Fill the bucket with blood
+r2_connectedto_w1
+r1_connectedto_r2
+r1_connectedto_B1
+w1_isdown
+w1_movesby_1
+r1_falls
+r2_rises
+r1_movesby_1
+r2_movesby_1
+S1_drainsto_B1
+S1_capis_1
+B1_movesby_1
+L1_powers_S1
+background_rainbowb
+backgroundmusic_Tutorial
+platform_2
+death_1

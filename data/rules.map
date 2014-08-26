@@ -1,0 +1,45 @@
+0001020304050607080910111213141516
+01                              01
+02                              02
+03------------------------------03
+04                              04
+05                              05
+06                              06
+07                              07
+08                              08
+09                              09
+10                              10
+11                              11
+12                              12
+0001020304050607080910111213141516
+
+Maps must be saved as
+.map
+instructions must be saved as
+.label
+
+the instructions and maps must be named the same.
+
+all maps must follow the above format
+Careful to make sure all labels are in the right place-off by one =broken
+Follow the Label system, any changes made in the label system must be mirrored in your map, any changes you feel would make mapping better must be updated in all maps and all.label as well.
+Do not label anythign with a #, the object will be drawn but it will not load into the level properly and may break pathing.
+look at the allpossible.label file for all possible instructions.
+Before you use a label make sure it is in the game-check map.cpp in loadUnit.
+
+for .label files make sure the labels refer to the top left instance of the structure.  For example a structure that looks like this
+w1
+w1
+W1
+your label refering to this mechanical wall should be w1.
+
+Basic rules
+Rope
+	at least two labels, one on line 3 and the other in the 	same collumn.
+	the lower label must be obove or on same grid square as 	it is teather to.  This makes it easier to draw.  If you 	dont it may still interact properly but look ridiculous.
+Scyth
+	The scythe and its left and right goal do not need to be 	labeled with the same number.  But you really should.
+
+Buzz Saw
+	base cap is 10
+

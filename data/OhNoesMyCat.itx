@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+CIwSoundSpec
+{
+	name		"OhNoesMyCat"
+	data		"OhNoesMyCat"	
+	volMax		2.0
+	vol		2.0
+	loop		false
+}
+
+
+
+CIwSoundGroup
+{
+	name		"OhNoesMyCat"
+	maxPolyphony	2
+	killOldest	true
+	
+addSpec		"OhNoesMyCat"
+}

@@ -1,0 +1,17 @@
+CIwSoundSpec
+{
+	name		"foresttheme"
+	data		"foresttheme"	
+	volMax		3.0
+	vol		3.0
+	loop		true		
+}
+
+CIwSoundGroup
+{
+	name		"foresttheme"
+	maxPolyphony	2
+	killOldest	true
+	addSpec		"foresttheme"
+ 
+}

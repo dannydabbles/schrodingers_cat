@@ -1,0 +1,41 @@
+Buzz Saw
+	(S/s)#_capis_#
+	(S/s)#_drainsto_(B/b)#
+	(S/s)#_isoff
+	(S/s)#_islarge
+Mechanical wall
+	(M/m/Q/q/U/u)#)_isdown
+	(M/m/Q/q/U/u)#)_movesby_#
+block
+	(B/b)_movesby_#
+Scythe
+	(Y/y)#_runsfrom_(X/x)#
+	(Y/y)#_runsto_/Z/z)#
+Rope
+	(R/r)#_connectedto_A#
+	(R/r)#_connectedto_(Y/y)#
+	(R/r)#_connectedto_(M/m/Q/q/U/u)#
+	(R/r)#_connectedto_(R/r)#
+	(R/r)#_falls
+	(R/r)#_rises
+	(R/r)#_movesby_#
+Lever
+	L#_switches_(M/m/Q/q/U/u/f/A/a)#
+	L#_powers_(S/s/C/c)#
+Pressure plate
+	P#_drops_(M/m/Q/q/U/u/f/A/a)#
+	P#_switches_(M/m/Q/q/U/u)#
+	P#_powers_(S/s/C/c)#
+	P#_triggers(k)#
+Blood bucket
+	(B/b(#_capis_#
+	(B/b)#_movesby_#
+Mouse
+	M#_runsto_(H/B/b)#
+Message
+	k#_usespng_(string of the name of the png)
+	k#_uses_#(index number of texture in texturelist)
+	k#_usesfont_(string of the name of the font)
+	k#_says_(string of what you want to say, any character besides underscore)
+Anvil
+	(A/a)#_movesby_#
